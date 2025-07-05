@@ -62,8 +62,7 @@ const ConferenceEvent = () => {
             avItems.forEach((item) => {
                 totalCost += item.cost * item.quantity;
             });
-        }
-        }
+        };
         return totalCost;
       };
     const avTotalCost = calculateTotalCost("av"); // I added this
