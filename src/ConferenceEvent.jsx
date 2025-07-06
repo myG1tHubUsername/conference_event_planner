@@ -3,7 +3,7 @@ import "./ConferenceEvent.css";
 import TotalCost from "./TotalCost";
 import { useSelector, useDispatch } from "react-redux";
 import { incrementQuantity, decrementQuantity } from "./venueSlice";
-import { incrementAvQuantity } from "./avSlice";
+//import { incrementAvQuantity } from "./avSlice";
 import { incrementAvQuantity, decrementAvQuantity } from "./avSlice";
 
 const ConferenceEvent = () => {
